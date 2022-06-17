@@ -1,0 +1,93 @@
+#global {
+    font-family: fantasy;
+}
+
+#light {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+}
+
+#light:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.white {
+    color: white;
+}
+
+#headerGriffith {
+    height: 100vh;
+    background: url(../img/headerGriffithBg.jpg) fixed;
+    background-size: cover;
+    color: white;
+}
+
+.break {
+    height: 30px;
+    background: white;
+}
+
+
+#sectionDescriptionGriffith {
+    height: 100vh;
+    background: #99a6ce;
+    text-align: center;
+}
+
+#sectionDescriptionContainerGriffith {
+    height: 100%;
+}
+
+#descriptifImgGriffith {
+    border: white solid 6px;
+    border-radius: 50%;
+}
+
+#descriptifImgFemto {
+    border: black solid 8px;
+    border-radius: 50%;
+}
+
+#descriptifTexteGriffith {
+    width: 500px;
+    display: inline-block;
+    color: white;
+}
+
+#descriptifTexteFemto {
+    width: 500px;
+    display: inline-block;
+    color: red;
+}
+
+#sectionInfoGriffith {
+    height: 100vh;
+    background: white;
+}
+
+.row50vh {
+    height: 50vh;
+}
+
+#vide {
+    height: 100vh;
+    background: url(../img/headerGriffithBg.jpg) fixed;
+    background-size: cover;
+}
+
+#footer {
+    height: 55vh;
+    background: black;
+    text-align: center;
+}
+
+#footerBtnGriffith {
+    padding: 0;
+    border: none;
+}
